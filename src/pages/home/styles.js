@@ -2,21 +2,17 @@ import styled from 'styled-components'
 
 export const Conteiner = styled.div`
 display: flex;
-width: 70vw;
-height: 100vh;
-
-
-`
-
-export const Conteinerimg = styled.div`
 width: 100vw;
 height: 100vh;
-position: relative;
+ overflow: hidden;
+`
+export const Conteinerimg= styled.div`
 
 `
+
 export const ConteinerForm = styled.div`
-height: 100vh;
-width: 30vw;
+height: 80vh;
+width: 30%;
 
 #logo{
     padding: 20px;
